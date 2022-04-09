@@ -1,5 +1,6 @@
 import { Container } from "./styles"
 import bgImg  from '../../assets/icon-moon.svg'
+import { CreateTaskForm } from "../CreateTaskForm"
  
 export const HeaderItens = ()=>{
     return(
@@ -8,7 +9,8 @@ export const HeaderItens = ()=>{
                 <h1>Todo</h1>
                 <button><img src = {bgImg}  alt="" /></button>
             </div>
-        
+            <CreateTaskForm></CreateTaskForm>
+            
         </Container>
     )
 }

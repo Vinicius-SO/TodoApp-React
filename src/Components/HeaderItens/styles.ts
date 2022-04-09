@@ -2,15 +2,17 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 40%;
-    height: 100%;
+    height: 65%;
     margin:  0 auto;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
 
     
     .Sla{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-top: 2rem;
     
         h1{
             color: white;
