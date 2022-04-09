@@ -33,7 +33,7 @@ export const CreateTaskForm = () => {
             <button type="button" onClick={()=>{setCompleted(!completed)}}>
                 {completed && <img src={checkIMG}/>}
             </button>
-            <input type="text" value={task} onChange={e=>setTask(e.target.value)}/>
+            <input type="text" placeholder='Type Here' value={task} onChange={e=>setTask(e.target.value)}/>
         </Container>
     )
 }

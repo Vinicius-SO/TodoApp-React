@@ -29,6 +29,7 @@ export const GlobalStyle = createGlobalStyle`
     }
     body{
         height: 100vh;
+        background: var(--Very-Light-Gray);
     }
     html{
         @media(max-width:1000px){
